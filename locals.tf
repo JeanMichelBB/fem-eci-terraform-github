@@ -28,6 +28,20 @@ locals {
       topics             = ["frontend-masters", "terraform"]
       visibility         = "public"
     }
+    "oci-terraform-network" = {
+      description        = "Automation for GitHub"
+      gitignore_template = "Terraform"
+      name               = "oci-terraform-network"
+      topics             = ["oracle-cloud", "terraform"]
+      visibility         = "public"
+    }
+    "oci-terraform-cluster" = {
+      description        = "Automation for GitHub"
+      gitignore_template = "Terraform"
+      name               = "oci-terraform-cluster"
+      topics             = ["oracle-cloud", "terraform"]
+      visibility         = "public"
+    }
     "fem-eci-terraform-product-service" = {
       description        = "Automation for product service"
       gitignore_template = "Terraform"
