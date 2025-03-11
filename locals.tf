@@ -56,5 +56,19 @@ locals {
       topics             = ["frontend-masters", "terraform"]
       visibility         = "public"
     }
+    "oci-product-service" = {
+      description        = "Example product service"
+      gitignore_template = "Go"
+      name               = "oci-product-service"
+      topics             = ["oracle-cloud", "terraform"]
+      visibility         = "public"
+    }
+    "oci-service" = {
+      description        = "Example product service"
+      gitignore_template = "Go"
+      name               = "oci-service"
+      topics             = ["oracle-cloud", "terraform"]
+      visibility         = "public"
+    }
   }
 }
